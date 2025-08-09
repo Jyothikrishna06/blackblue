@@ -1,9 +1,9 @@
 
-Team Name: [blackblue]
+Team Name:Blackblue
 
 Team Members
-Member 2: Jyothikrishna - [SOE]
-Member 3: Feeza Bathul - [SOE]
+Member 1: Jyothikrishna-SOE
+Member 2: Feeza Bathul-SOE
 
 Project Description
 This project is a web application built with Next.js that offers several text manipulation tools, including jumbling and counting words. It also features the ability to perform a specific count for any word or letter you input.
