@@ -1,0 +1,277 @@
+/* Global container for centering content and background */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f9c74f, #f77f00);
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+/* This new class sets the background to white specifically for the loading page */
+.loadingBackground {
+  background: #fff;
+}
+
+/* Card-like container styles */
+.loginContainer,
+.chooseContainer,
+.placeholderContainer,
+.textContainer,
+.choiceContainer {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+/* The resultContainer is now transparent to allow the background to show through */
+.resultContainer {
+  background: #fff; /* Reverted to a white background */
+  padding: 40px;
+  width: 100%;
+  max-width: 600px; /* Adjusted max-width for a cleaner look */
+  text-align: left; /* Changed alignment to left */
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.loginContainer {
+  max-width: 350px;
+}
+
+.placeholderContainer {
+  max-width: 600px;
+}
+
+.placeholderHeading,
+.loginHeading,
+.greetingHeading,
+.textHeading,
+.resultHeading,
+.loadingHeading {
+  font-size: 2.5rem;
+  color: #333;
+  cursor: default; /* Headings should not have a text cursor */
+}
+
+.loadingContainer {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+/* Text styles with gradients */
+.loginHeading,
+.greetingHeading,
+.textHeading,
+.resultHeading {
+  font-size: 28px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff9933, #ffcc66);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+
+/* The result heading now has a gradient text color */
+.resultHeading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-shadow: none;
+  background: linear-gradient(90deg, #ff9933, #ffcc66);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.greetingHeading {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.textHeading {
+  margin-bottom: 20px;
+}
+
+
+/* Form and input field styles */
+.inputGroup {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.inputGroup label {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.inputGroup input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.inputGroup input:focus {
+  border-color: #ff9933;
+}
+
+/* Button styles */
+.submitBtn,
+.chooseBtn,
+.jumbleBtn,
+.backBtn,
+.countTargetBtn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer; /* Buttons should have a pointer cursor for good UX */
+  background: linear-gradient(90deg, #ff9933, #ffcc66);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 15px rgba(255, 153, 51, 0.4);
+}
+
+.submitBtn:hover,
+.chooseBtn:hover,
+.jumbleBtn:hover,
+.backBtn:hover,
+.countTargetBtn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 153, 51, 0.6);
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.chooseBtn {
+  flex: 1;
+  padding: 15px 25px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #f7c449, #f79f00);
+  box-shadow: 0 5px 15px rgba(247, 159, 0, 0.4);
+}
+
+/* Loading page progress bar styles */
+.progressBarContainer {
+  width: 400px;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.progressBarFill {
+  height: 100%;
+  border-radius: 10px;
+  background: repeating-linear-gradient(
+    45deg,
+    #f7c449,
+    #f7c449 10px,
+    #f79f00 10px,
+    #f79f00 20px
+  );
+  transition: width 0.5s ease-in-out;
+}
+
+/* The result text now has a standard, cleaner look inside a white box */
+.resultText {
+  background: none;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 1.5rem; /* Adjusted font size for a cleaner look */
+  color: #333; /* Changed to a dark color for readability */
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-bottom: 40px;
+  box-shadow: none;
+  animation: fadeIn 1s ease-in-out;
+  text-shadow: none;
+  font-weight: normal;
+}
+
+.backBtn {
+  background: #aaa;
+  box-shadow: none;
+  margin-top: 20px;
+}
+
+/* New styles for the target word/letter count feature */
+.targetCountContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.targetInput {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ffcc66; /* Thicker, more colorful border */
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Added a subtle shadow */
+}
+
+.targetInput:focus {
+  border-color: #f79f00; /* Darker border color on focus */
+  box-shadow: 0 4px 15px rgba(255, 153, 51, 0.2); /* More pronounced shadow on focus */
+}
+
+.countTargetBtn {
+  background: linear-gradient(90deg, #ffcc66, #ff9933);
+  width: auto; /* Allow the button to be smaller than 100% */
+  align-self: flex-start; /* Align button to the left */
+  padding: 12px 25px; /* Added padding to match input height */
+  margin-top: 10px;
+}
+
+.totalCountText {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.targetResultText {
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+/* Simpler fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
