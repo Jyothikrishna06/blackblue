@@ -20,7 +20,7 @@ For Software:
 Technologies/Components Used
 For Software:
 
-Languages: JavaScript, CSS
+Languages: JavaScript, CSS,html
 
 Frameworks: Next.js, React
 
@@ -28,10 +28,9 @@ Libraries: Next.js built-in modules
 
 Tools: npm, Git, GitHub
 
-For Hardware:
 
-[No hardware used for this project]
-Implementation
+
+
 For Software:
 
 Installation
