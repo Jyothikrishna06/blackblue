@@ -1,5 +1,4 @@
-[blackblue] 🎯
-Basic Details
+
 Team Name: [blackblue]
 
 Team Members
