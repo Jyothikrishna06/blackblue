@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+[blackblue] 🎯
+Basic Details
+Team Name: [blackblue]
 
-## Getting Started
+Team Members
+Member 2: Jyothikrishna - [SOE]
+Member 3: Feeza Bathul - [SOE]
 
-First, run the development server:
+Project Description
+This project is a web application built with Next.js that offers several text manipulation tools, including jumbling and counting words. It also features the ability to perform a specific count for any word or letter you input.
 
-```bash
+The Problem (that doesn't exist)
+Tired of perfectly sensible and legible paragraphs? Do you find neatly structured sentences to be a boring waste of time? We solved the non-existent problem of having too much order in your text!
+
+The Solution (that nobody asked for)
+Our solution is a one-stop app for complete text chaos! Just paste your text, and we'll jumble it up for you. We'll also give you a sarcastic word count so you know just how much perfect text you've destroyed.
+Technical Details
+Technologies/Components Used
+For Software:
+
+Technologies/Components Used
+For Software:
+
+Languages: JavaScript, CSS
+
+Frameworks: Next.js, React
+
+Libraries: Next.js built-in modules
+
+Tools: npm, Git, GitHub
+
+For Hardware:
+
+[No hardware used for this project]
+Implementation
+For Software:
+
+Installation
+npm install
+
+Run
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Project Documentation
+For Software:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Screenshots (Add at least 3)
+![Screenshot1](Add screenshot 1 here with proper name) Add caption explaining what this shows
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![Screenshot2](Add screenshot 2 here with proper name) Add caption explaining what this shows
 
-## Learn More
+![Screenshot3](Add screenshot 3 here with proper name) Add caption explaining what this shows
 
-To learn more about Next.js, take a look at the following resources:
+Diagrams
+![Workflow](Add your workflow/architecture diagram here) Add caption explaining your workflow
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Build Photos
+![Components](Add photo of your components here) List out all components shown
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Build](Add photos of build process here) Explain the build steps
 
-## Deploy on Vercel
+![Final](Add photo of final product here) Explain the final build
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Project Demo
+Video
+[Add your demo video link here] Explain what the video demonstrates
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Team Contributions
+Jyothikrishna:Initial project setup, core Next.js app development, and the implementation of the text jumble feature.
+
+ FeezaBathul :Implementation of the word count feature, the comedic output logic, and all CSS styling for the user interface.
+Made with ❤ at TinkerHub Useless Projects
