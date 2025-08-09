@@ -67,7 +67,7 @@ export default function Count() {
           </button>
           {targetCount !== null && (
             <p className={styles.targetResultText}>
-              The word/letter &quot;{target}&quot; appears {targetCount} time(s).
+              {target} pops {targetCount} times.
             </p>
           )}
         </div>
