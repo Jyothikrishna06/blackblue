@@ -44,26 +44,15 @@ npm run dev
 Project Documentation
 For Software:
 
-Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name) Add caption explaining what this shows
+Screenshots 
 
-![Screenshot2](Add screenshot 2 here with proper name) Add caption explaining what this shows
+<img width="1857" height="906" alt="Screenshot 2025-08-09 165200" src="https://github.com/user-attachments/assets/bc5a36df-ee65-475d-962a-5dc71c2908d5" />
 
-![Screenshot3](Add screenshot 3 here with proper name) Add caption explaining what this shows
+<img width="1857" height="910" alt="Screenshot 2025-08-09 165302" src="https://github.com/user-attachments/assets/1073acdf-b30f-4ac3-baf1-b1006ae4608d" />
 
-Diagrams
-![Workflow](Add your workflow/architecture diagram here) Add caption explaining your workflow
+<img width="1863" height="902" alt="Screenshot 2025-08-09 165609" src="https://github.com/user-attachments/assets/634607fd-8cb9-44ec-86f3-ace9b692fbbe" />
 
-Build Photos
-![Components](Add photo of your components here) List out all components shown
 
-![Build](Add photos of build process here) Explain the build steps
-
-![Final](Add photo of final product here) Explain the final build
-
-Project Demo
-Video
-[Add your demo video link here] Explain what the video demonstrates
 
 Team Contributions
 Jyothikrishna:Initial project setup, core Next.js app development, and the implementation of the text jumble feature.
